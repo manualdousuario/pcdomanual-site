@@ -1,0 +1,5 @@
+baseURL = 'https://pcdomanual.com'
+languageCode = 'pt-br'
+defaultContentLanguage = 'pt-br'
+title = 'PC do Manual'
+disableKinds = ["taxonomy", "term", "section"]

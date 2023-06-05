@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PC do Manual</title>
+    <link>https://pcdomanual.com/</link>
+    <description>Recent content on PC do Manual</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language><atom:link href="https://pcdomanual.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://pcdomanual.com/infraestrutura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pcdomanual.com/infraestrutura/</guid>
+      <description>PC do Manual está hospedado em uma máquina virtual privada na plataforma Vultr em seu datacenter de São Paulo.
+Backups são feitos diariamente e mantido por 10 dias.
+A infraestrutura é transparente e pública, você pode ver o código aberto no Codeberg.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://pcdomanual.com/sobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pcdomanual.com/sobre/</guid>
+      <description>Sobre o PC do manual.</description>
+    </item>
+    
+    <item>
+      <title>Miniflux</title>
+      <link>https://pcdomanual.com/services/miniflux/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pcdomanual.com/services/miniflux/</guid>
+      <description>Miniflux é um serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.
+RSS é uma tecnologia aberta que permite seguir sites e blogs em tempo real, sem intermediários e sem filtros. Lá no Manual do Usuário tem um excelente artigo sobre como usar o RSS.
+O Miniflux do PC do Manual está em fase de testes, restrito apenas para assinantes.
+Primeiro login Acesse o Miniflux do PC do Manual e entre com seu nome de usuário e senha.</description>
+    </item>
+    
+    <item>
+      <title>Nitter</title>
+      <link>https://pcdomanual.com/services/nitter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pcdomanual.com/services/nitter/</guid>
+      <description>O Nitter é um front-end, uma &amp;ldquo;casca&amp;rdquo; alternativa ao Twitter. Ele exibe o mesmo conteúdo do Twitter, só que de uma maneira mais privada (sem compartilhar dados com Elon Musk) e rápida (por padrão, sem depender de códigos JavaScript).
+Usá-lo é bem simples. Em vez de acessar twitter.com/manualusuariobr, por exemplo, basta trocar a primeira parte pelo endereço do nosso Nitter: nitter.pcdomanual.com/manualusuariobr.
+O Nitter entrega outras duas vantagens em relação ao site oficial do Twitter:</description>
+    </item>
+    
+  </channel>
+</rss>
