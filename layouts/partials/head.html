@@ -1,18 +1,16 @@
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark light">
+
     {{ if .Title }}
     <title>{{ .Title }} | {{ .Site.Title }}</title>
     {{ else }}
     <title>{{ .Site.Title }}</title>
     {{ end }}
 
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
-
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "/favicon-32x32.png" | relURL }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon-16x16.png" | relURL }}">
 
     <link rel="stylesheet" href="{{ "/style.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/fontawesome/solid.min.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/fontawesome/fontawesome.min.css" | relURL }}">
 </head>
