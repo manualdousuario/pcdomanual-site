@@ -1,7 +1,6 @@
 ---
 title: Nitter
-icon: fa-hashtag
-description: Um front-end alternativo para o Twitter com foco em privacidade e velocidade.
+description: Um front-end alternativo para o Twitter com foco em privacidade, velocidade e sem Javascript.
 link: https://nitter.pcdomanual.com
 ---
 

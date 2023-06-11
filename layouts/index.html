@@ -1,11 +1,24 @@
 {{ define "main" }}
     <div class="services">
         {{ range (where .Site.RegularPages "Section" "services") }}
+                {{ if .Params.premium }}
+                <div class="service premium">
+                {{ else }}
                 <div class="service">
+                {{ end }}
                     <h2>{{ .Title | lower }}</h2>
                     <p>{{ safeHTML .Params.description }}</p>
+                    <p><a href="{{ .Params.link }}"><strong>acesse</strong></a> / <a href="{{ .RelPermalink }}">documentação</a></p>
                 </div>
         {{ end }}
     </div>
-    <p class="assinantes">⭐️ Exclusivos para <a href="https://manualdousuario.net/apoie/">assinantes do <strong>Manual</strong></a></p>
+    <p class="subscribers">⭐️ Exclusivos para <a href="https://manualdousuario.net/apoie/">assinantes do <strong>Manual</strong></a></p>
+
+<style>
+    #nav-services {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+        text-decoration-thickness: 2px;
+    }
+</style>
 {{ end }}

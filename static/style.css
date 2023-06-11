@@ -1,5 +1,4 @@
 /* CSS Reset by https://www.joshwcomeau.com/css/custom-css-reset/ */
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -29,9 +28,7 @@ p, h1, h2, h3, h4, h5, h6 {
   isolation: isolate;
 }
 
-
 /* Variáveis globais */
-
 :root {
  --sem-serifa: system-ui, sans-serif;
  --serifa: Georgia, serif;
@@ -39,12 +36,10 @@ p, h1, h2, h3, h4, h5, h6 {
  --cor-fundo: #f9f9f9;
  --cor-link: #1D43B4;
  --cor-link-alt: #191970;
- --cor-service: rgba(255, 255, 255, 0.6);
+ --cor-service: rgb(232, 232, 232);
 }
 
-
 /* Leiaute */
-
 body {
   max-width: 720px;
   margin: 2rem auto;
@@ -63,18 +58,13 @@ a:hover, a:active {
   color: var(--cor-link-alt);
 }
 
-header h1 {
-  font-size: 3rem;
-  text-align: center;
-  margin: 0 0 1rem;
-}
-header h1 img {
+header img {
   max-width: 100%;
 }
 
 nav {
+  margin-bottom: 2rem;
   text-align: center;
-  margin-bottom: 3rem;
 }
 
 nav ul {
@@ -105,6 +95,7 @@ nav li {
   border-radius: 1em;
   padding: 1rem;
   background-color: var(--cor-service);
+  min-height: 12rem;
 }
 
 .service h2 {
@@ -115,6 +106,7 @@ nav li {
 .service p {
   margin: 1rem 0;
 }
+
 .service p:last-child {
   margin-bottom: 0;
 }
@@ -127,23 +119,28 @@ nav li {
   left: 5px;
 }
 
-.assinantes {
+.subscribers {
   margin: 2rem auto 0;
   font-size: 95%;
   text-align: center;
 }
 
 footer {
-  margin-top: 6rem;
+  margin-top: 2rem;
   text-align: center;
 }
 
 .content p {
-  font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.content h2 {
+    margin-top: 1rem;
+    margin-bottom: 0;
 }
 
 /* Mobile */
-
 @media only screen and (max-width: 570px) {
   body {
     margin: 2rem 0;
@@ -157,7 +154,6 @@ footer {
 }
 
 /* Modo escuro */
-
 @media (prefers-color-scheme: dark) {
   :root {
     --cor-fonte: rgb(237, 237, 237);
@@ -167,7 +163,7 @@ footer {
     --cor-service: #36363699;
   }
 
-  header h1 img {
+  header img {
     filter:invert(90%)
   }
 }

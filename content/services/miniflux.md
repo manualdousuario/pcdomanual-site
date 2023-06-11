@@ -1,8 +1,8 @@
 ---
 title: Miniflux
-icon: fa-square-rss
 description: Serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.
 link: https://miniflux.pcdomanual.com
+premium: true
 ---
 
 Miniflux é um serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.
