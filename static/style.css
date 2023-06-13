@@ -58,8 +58,11 @@ a:hover, a:active {
   color: var(--cor-link-alt);
 }
 
+header {
+  text-align: center;
+}
 header img {
-  max-width: 100%;
+  max-width: 300px;
 }
 
 nav {
