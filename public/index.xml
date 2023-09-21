@@ -52,16 +52,5 @@ O Miniflux do PC do Manual está em fase de testes, restrito apenas para assinan
 Primeiro login Acesse o Miniflux do PC do Manual e entre com seu nome de usuário e senha.</description>
     </item>
     
-    <item>
-      <title>Nitter</title>
-      <link>https://pcdomanual.com/services/nitter/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pcdomanual.com/services/nitter/</guid>
-      <description>O Nitter é um front-end, uma &amp;ldquo;casca&amp;rdquo; alternativa ao Twitter. Ele exibe o mesmo conteúdo do Twitter, só que de uma maneira mais privada (sem compartilhar dados com Elon Musk) e rápida (por padrão, sem depender de códigos JavaScript).
-Usá-lo é bem simples. Em vez de acessar twitter.com/manualusuariobr, por exemplo, basta trocar a primeira parte pelo endereço do nosso Nitter: nitter.pcdomanual.com/manualusuariobr.
-O Nitter entrega outras duas vantagens em relação ao site oficial do Twitter:</description>
-    </item>
-    
   </channel>
 </rss>
