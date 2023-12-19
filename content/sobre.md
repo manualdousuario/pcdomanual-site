@@ -17,6 +17,6 @@ O PC do Manual está hospedado em uma máquina virtual privada (VPS) na [Vultr](
 
 Backups são feitos diariamente e mantidos por dez dias.
 
-A infraestrutura é transparente e pública. Veja o código aberto no [Codeberg](https://codeberg.org/manualdousuario/pcdomanual).
+A infraestrutura é transparente e pública. Veja o código aberto no [GitHub](https://github.com/manualdousuario/pcdomanual-site).
 
 {{< nav-bold id="nav-about" >}}
