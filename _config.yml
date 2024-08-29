@@ -1,0 +1,12 @@
+title: PC do Manual
+description: PC do Manual é uma plataforma de aplicações de código aberto derivada do site Manual do Usuário.
+email: ghedin@manualdousuario.net
+url: https://pcdomanual.com
+
+plugins:
+  - jekyll-feed
+
+permalink: /:title/
+markdown: kramdown
+
+timezone: UTC−03:00
