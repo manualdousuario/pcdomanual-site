@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Miniflux</title>
+  <meta name="description" content="Miniflux é um serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.">
+
+  <link rel="canonical" href="https://pcdomanual.com/miniflux/">
+  <link rel="alternate" type="application/rss+xml" title="PC do Manual" href="/feed.xml">
+
+  <link rel="stylesheet" href="/assets/style.css?v=202405291423" media="all">
+</head>
+
+<body class="single">
+
+  <header>
+    <div class="logo">
+      
+      <h2><a href="/"><img src="/assets/pc-do-manual.svg" alt="PC do Manual" width="79" height="52" /></a></h2>
+      
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="/sobre" aria-label="Detalhes sobre mim">Sobre</a></li>
+        <li><a href="/feed.xml" aria-label="Link para o feed Atom (RSS).">
+          <img src="/assets/rss.svg" alt="RSS" width="24" height="24" />
+        </a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+<article class="entry 
+">
+<h1>Miniflux</h1>
+
+
+<p><img src="/assets/miniflux.svg" alt="Logo do Miniflux" width="96" height="96" style="float: right; box-shadow: none;" />Miniflux é um serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.</p>
+
+<p>RSS é uma tecnologia aberta que permite seguir sites e blogs em tempo real, sem intermediários e sem filtros. No <strong>Manual do Usuário</strong> tem um excelente artigo <a href="https://manualdousuario.net/como-usar-feeds-rss/">sobre como usar o RSS</a>.</p>
+
+<p>O Miniflux do PC do Manual está em fase de testes, restrito apenas para assinantes.</p>
+
+<h2 id="adicionando-um-novo-feed">Adicionando um novo feed</h2>
+
+<p>Na página inicial, clique no <code class="language-plaintext highlighter-rouge">+</code> ao lado de <code class="language-plaintext highlighter-rouge">Fontes</code> no menu superior.</p>
+
+<p>No campo de URL, coloque a URL do feed que deseja assinar. Para assinar o <strong>Manual do Usuário</strong>, por exemplo, use <code class="language-plaintext highlighter-rouge">https://manualdousuario.net/feed/</code>.</p>
+
+<p>Caso não saiba o endereço exato do feed, experimente colocar o do site. O Miniflux é bem esperto e consegue detectar feeds no código-fonte do site.</p>
+
+<p><img src="/assets/miniflux/miniflux-novo-feed.png" alt="Tela de cadastro de novo feed no Miniflux." width="688" height="294" /></p>
+
+<p>Você será redirecionado para a página com as últimas notícias do feed escolhido.</p>
+
+<p><img src="/assets/miniflux/miniflux-feed-lista.png" alt="Tela com itens do feed do Manual do Usuário no Miniflux." width="688" height="743" /></p>
+
+<p>Clicando em um item, você poderá ler a notícia diretamente no Miniflux.</p>
+
+<p><img src="/assets/miniflux/miniflux-feed-item.png" alt="Item/post do Manual do Usuário aberto no Miniflux." width="688" height="645" /></p>
+
+<h2 id="importando-feeds-de-outras-plataformas">Importando feeds de outras plataformas</h2>
+
+<p>Primeiro, exporte o seu feed da plataforma atual para um arquivo no formato <code class="language-plaintext highlighter-rouge">*.opml</code>. Veja como fazer <a href="https://feedly.helpscoutdocs.com/article/52-how-can-i-export-my-sources-and-feeds-through-opml">no Feedly</a> (em inglês). Você também pode importar usando um link direto para o arquivo de feed.</p>
+
+<p>Na página inicial, clique no <code class="language-plaintext highlighter-rouge">+</code> ao lado de <code class="language-plaintext highlighter-rouge">Fontes</code> no menu superior. Na página que se abrir, clique no menu <code class="language-plaintext highlighter-rouge">Importar</code>.</p>
+
+<p>Encontre o arquivo do seu dispositivo e clique em <code class="language-plaintext highlighter-rouge">Importar</code>.</p>
+
+<p><img src="/assets/miniflux/miniflux-importar.png" alt="Tela de importação de feeds via arquivo OPML no Miniflux." width="688" height="352" /></p>
+
+</article>
+
+<div class="footer-newsletter">
+  <p>Inscreva-se na newsletter do <strong>Manual</strong>:</p>
+  <form action="https://sendy.manualdousuario.net/subscribe" method="post" accept-charset="utf-8">
+    <label for="bd-email" style="display: none">E-mail</label>
+    <input type="email" name="email" id="bd-email" required>
+      <input type="hidden" name="list" value="5hbIBhgttipQeZXjMcG0jA">
+      <input type="hidden" name="subform" value="yes">
+    <button type="submit">Cadastrar</button>
+  </form>
+</div>
+
+  <footer>
+    <p><strong>PC do Manual</strong> é uma plataforma de aplicações de código aberto derivada do site <a href="https://manualdousuario.net">Manual do Usuário</a>.</p>
+    <p>Contato: <a href="mailto:suporte@manualdousuario.net">suporte@manualdousuario.net</a></p>
+    <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR">CC BY-NC SA 4.0</a> &middot; 2023–2024</p>
+  </footer>
+
+</body>
+</html>
