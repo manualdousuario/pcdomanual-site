@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<main>
+  <h1>Arquivos do assunto “{{ page.title }}”</h1>
+  <ul class="categorias_lista">
+  {% for post in page.posts %}
+    <li>
+      {{ post.date | date: "%-d/%-m/%Y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</main>

@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{% assign author = site.data.authors[page.author] %}
+<article class="entry 
+{% if page.type == 'image' %}entry_image{% elsif page.type == 'quote' %}entry_quote{% elsif page.type == 'aside' %}entry_aside{% elsif page.type == 'link' %}entry_link{% elsif page.type == 'page' %}entry_page{% endif %}">
+<h1>{{ page.title | escape }}</h1>
+{% if page.categories contains "noticias" %}
+<p class="data">{{ page.date | date: "%-d/%-m/%Y" }}{% if author %} &middot; {{ author.name }}{% endif %}</p>{% endif %}
+
+{{ content }}
+</article>

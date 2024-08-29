@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ page.lang | default: site.lang | default: 'pt-br' }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' }}">
+
+  <link rel="stylesheet" href="/assets/style.css?v={{ "now" | date: "%Y%m%d%H%M" }}" media="all">
+</head>
+
+<body{% if page.id %} class="single"{% endif %}>
+
+  <header>
+    <div class="logo">
+      {% if page.id %}
+      <h2><a href="{{ '/' }}"><img src="/assets/pc-do-manual.svg" alt="PC do Manual" width="79" height="52" /></a></h2>
+      {% else %}
+      <h1><a href="{{ '/' }}"><img src="/assets/pc-do-manual.svg" alt="PC do Manual" width="79" height="52" /></a></h1>
+      {% endif %}
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="/sobre" aria-label="Detalhes sobre mim">Sobre</a></li>
+        <li><a href="/feed.xml" aria-label="Link para o feed Atom (RSS).">
+          <img src="/assets/rss.svg" alt="RSS" width="24" height="24" />
+        </a></li>
+      </ul>
+    </nav>
+  </header>

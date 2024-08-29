@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<main>
+
+  <div class="blocos-de-apps">
+
+    <div class="bloco-app">
+      <img src="/assets/searxng.svg" alt="Logo do SearXNG" width="32" height="32" />
+      <h2>SearXNG</h2>
+      <p>Meta-buscador web hackeável e que respeita a sua privacidade.</p>
+      <p><a href="https://busca.pcdomanual.com/" class="link-app">Acesse</a> &middot; <a href="https://github.com/searxng/searxng">código-fonte</a></p>
+    </div>
+
+    <div class="bloco-app">
+      <img src="/assets/openorb.svg" alt="Logo do OpenOrb" width="32" height="32" />
+      <h2>OpenOrb</h2>
+      <p>Buscador e diretório de blogs pessoais baseados em feeds RSS e Atom.</p>
+      <p><a href="https://openorb.pcdomanual.com/" class="link-app">Acesse</a> &middot; <a href="https://git.sr.ht/~lown/openorb">código-fonte</a></p>
+    </div>
+
+    <div class="bloco-app">
+      <img src="/assets/miniflux.svg" alt="Logo do Miniflux" width="32" height="32" />
+      <h2>Miniflux</h2>
+      <p>Agregador de feeds RSS/Atom minimalista e fácil de usar, com API para apps de terceiros.</p>
+      <p>⭐️ <a href="https://miniflux.pcdomanual.com/" class="link-app">Acesse</a> &middot; <a href="/miniflux/">documentação</a> &middot; <a href="https://github.com/miniflux/v2">código-fonte</a></p>
+    </div>
+
+    <div class="bloco-app">
+      <img src="/assets/linkding.svg" alt="Logo do Miniflux" width="32" height="32" />
+      <h2>Linkding</h2>
+      <p>Gerenciador de links/favoritos projetado para ser leve, rápido e fácil de configurar.</p>
+      <p>⭐️ <a href="https://linkding.pcdomanual.com/" class="link-app">Acesse</a> &middot; <a href="/linkding/">documentação</a> &middot; <a href="https://github.com/sissbruecker/linkding">código-fonte</a></p>
+    </div>
+
+    <div class="bloco-app">
+      <img src="/assets/ladder.svg" alt="Logo do Ladder" width="32" height="32" />
+      <h2>Ladder</h2>
+      <p>Quebra paywalls e remove cabeçalhos CORS de qualquer URL.</p>
+      <p><a href="https://parede.pcdomanual.com/" class="link-app">Acesse</a> &middot; <a href="https://github.com/everywall/ladder">código-fonte</a></p>
+    </div>
+
+    <p style="text-align: center">⭐️ Exclusivos para <a href="https://manualdousuario.net/apoie/">assinantes do <strong>Manual</strong></a>.</p>
+  </div>
+  <h2>Novidades</h2>
+  <ul class="lista-noticias">
+    {% for post in site.categories.noticias limit: 5 %}
+    <li>
+      <span>{{ post.date | date: "%-d/%-m/%Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
