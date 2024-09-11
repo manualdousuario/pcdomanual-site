@@ -15,4 +15,4 @@ Tem tanta coisa ali que fica até difícil escolher do que falar: conversores de
 
 Use a barra lateral ou a busca para encontrar o que procura, e guarde as ferramentas que te ajudam nos favoritos — cada uma tem sua própria URL/endereço. Se preferir, clique no ícone do coração, no título da ferramenta, para colocá-la no topo do menu lateral.
 
-Ambos os serviços têm o código aberto: [Lerama](https://github.com/altendorfme/lerama), [IT-Tools](https://github.com/CorentinTh/it-tools).
+Ambos os serviços têm o código aberto: [Lerama](https://github.com/manualdousuario/lerama), [IT-Tools](https://github.com/CorentinTh/it-tools).
