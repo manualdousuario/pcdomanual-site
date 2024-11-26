@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://pcdomanual.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pcdomanual.com/" rel="alternate" type="text/html" /><updated>2024-11-19T08:53:47-03:00</updated><id>https://pcdomanual.com/feed.xml</id><title type="html">PC do Manual</title><subtitle>PC do Manual é uma plataforma de aplicações de código aberto derivada do site Manual do Usuário.</subtitle><entry><title type="html">Novo serviço: Sintoniza</title><link href="https://pcdomanual.com/sintoniza/" rel="alternate" type="text/html" title="Novo serviço: Sintoniza" /><published>2024-11-19T08:40:00-03:00</published><updated>2024-11-19T08:40:00-03:00</updated><id>https://pcdomanual.com/sintoniza</id><content type="html" xml:base="https://pcdomanual.com/sintoniza/"><![CDATA[<p>Se o seu aplicativo de podcasts não sincroniza as inscrições com outros dispositivos, o <a href="https://sintoniza.pcdomanual.com/">Sintoniza</a>, novo serviço do PC do Manual, é para você.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://pcdomanual.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pcdomanual.com/" rel="alternate" type="text/html" /><updated>2024-11-26T11:11:38-03:00</updated><id>https://pcdomanual.com/feed.xml</id><title type="html">PC do Manual</title><subtitle>PC do Manual é uma plataforma de aplicações de código aberto derivada do site Manual do Usuário.</subtitle><entry><title type="html">Novo serviço: Marreta</title><link href="https://pcdomanual.com/marreta/" rel="alternate" type="text/html" title="Novo serviço: Marreta" /><published>2024-11-26T11:01:00-03:00</published><updated>2024-11-26T11:01:00-03:00</updated><id>https://pcdomanual.com/marreta</id><content type="html" xml:base="https://pcdomanual.com/marreta/"><![CDATA[<p>O PC do Manual, nosso servidor de aplicações de código aberto, ganhou um novo serviço: o quebrador de paywalls <a href="https://marreta.pcdomanual.com">Marreta</a>.</p>
+
+<p>O Marreta substitui o antigo Parede, que era baseado em um projeto pronto, o Ladder. (O novo nome faz mais sentido, né?) Desenvolvido pelo <a href="https://altendorfme.com">Renan Altendorf</a>, traz mais recursos, é mais informativo e está em desenvolvimento ativo e acelerado.</p>
+
+<p>“Embora o Ladder seja uma alternativa open source interessante, senti a necessidade de explorar soluções em uma linguagem de programação que que tivesse mais confortável”, diz Renan. “Além disso, estava em uma fase de aprendizado com projetos como o Lerama e o Sintoniza, que me inspiraram a criar novas abordagens para resolver desafios similares.”</p>
+
+<p>O Marreta é uma aplicação em PHP. Segundo seu criador, ela “faz uma requisição nos sites simulando alguns bots, com headers específicos, DNS, user agents — o mais próximo de um usuário comum — e, em seguida, guarda todo o código HTML original dessa pagina de forma compactada”. Algumas dessas palavras não estão na Bíblia, mas funciona!</p>
+
+<p>Ele continua: “Ao acessar a página, existe um sistema de regras globais e específicas por domínios que remove elementos, scripts, classes, IDs e até mesmo escreve novos códigos personalizados.”</p>
+
+<p>O mais importante é que funciona lindamente.</p>
+
+<p>***</p>
+
+<p>Existem várias formas de se usar o novo serviço. A mais simples é copiar o link da notícia que você não está conseguindo ler e colá-la <a href="https://marreta.pcdomanual.com">no site do Marreta</a>.</p>
+
+<p>Também dá para agilizar esse processo editando o link da notícia. Digamos que você tenha batido no paywall de <code class="language-plaintext highlighter-rouge">https://sitedojornal.com/noticia-qualquer</code>. Para acessá-la via Marreta, edite o endereço, assim: <code class="language-plaintext highlighter-rouge">marreta.pcdomanual.com/p/https://sitedojornal.com/noticia-qualquer</code>.</p>
+
+<p>Quer algo mais fácil ainda? Copie o bookmarklet no site do Marreta para os seus favoritos e ative-o com apenas um clique.</p>
+
+<p>Para quem tem familiaridade com desenvolvimento, uma API REST é disponibilizada para integração a outros sistemas. Detalhes lá no site.</p>
+
+<p>Em breve, teremos <a href="https://bsky.app/profile/marreta.pcdomanual.com">um robô no Bluesky</a>. <a href="https://joselito.bio/pt/">Joselito</a> está desenvolvendo o código.</p>
+
+<p>***</p>
+
+<p>O Marreta derruba a maioria dos paywalls, mas não todos. Sites que sabemos não funcionar retornam uma mensagem de erro. Essa lista é atualizada de modo contínuo.</p>
+
+<p>Note, ainda, que o Marreta não remove anúncios dos sites. O sistema apenas derruba paywalls.</p>
+
+<p>O código está <a href="https://github.com/manualdousuario/marreta">aberto no nosso GitHub</a>. Contribuições de código, sugestões de melhorias e avisos de erros/problemas são bem-vindos.</p>]]></content><author><name>Rodrigo Ghedin</name><email>rodrigo@ghed.in</email></author><category term="noticias" /><summary type="html"><![CDATA[O PC do Manual, nosso servidor de aplicações de código aberto, ganhou um novo serviço: o quebrador de paywalls Marreta.]]></summary></entry><entry><title type="html">Novo serviço: Sintoniza</title><link href="https://pcdomanual.com/sintoniza/" rel="alternate" type="text/html" title="Novo serviço: Sintoniza" /><published>2024-11-19T08:40:00-03:00</published><updated>2024-11-19T08:40:00-03:00</updated><id>https://pcdomanual.com/sintoniza</id><content type="html" xml:base="https://pcdomanual.com/sintoniza/"><![CDATA[<p>Se o seu aplicativo de podcasts não sincroniza as inscrições com outros dispositivos, o <a href="https://sintoniza.pcdomanual.com/">Sintoniza</a>, novo serviço do PC do Manual, é para você.</p>
 
 <p>O problema que o Sintoniza resolve pode parecer estranho a quem usa os apps mais populares — Apple Podcasts, Spotify, Pocket Casts —, que têm um sistema de sincronia embutido.</p>
 
