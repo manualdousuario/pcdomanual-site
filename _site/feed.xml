@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://pcdomanual.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pcdomanual.com/" rel="alternate" type="text/html" /><updated>2024-11-26T11:11:38-03:00</updated><id>https://pcdomanual.com/feed.xml</id><title type="html">PC do Manual</title><subtitle>PC do Manual é uma plataforma de aplicações de código aberto derivada do site Manual do Usuário.</subtitle><entry><title type="html">Novo serviço: Marreta</title><link href="https://pcdomanual.com/marreta/" rel="alternate" type="text/html" title="Novo serviço: Marreta" /><published>2024-11-26T11:01:00-03:00</published><updated>2024-11-26T11:01:00-03:00</updated><id>https://pcdomanual.com/marreta</id><content type="html" xml:base="https://pcdomanual.com/marreta/"><![CDATA[<p>O PC do Manual, nosso servidor de aplicações de código aberto, ganhou um novo serviço: o quebrador de paywalls <a href="https://marreta.pcdomanual.com">Marreta</a>.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://pcdomanual.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://pcdomanual.com/" rel="alternate" type="text/html" /><updated>2025-03-11T16:39:04-03:00</updated><id>https://pcdomanual.com/feed.xml</id><title type="html">PC do Manual</title><subtitle>PC do Manual é uma plataforma de aplicações de código aberto derivada do site Manual do Usuário.</subtitle><entry><title type="html">Novo serviço: Wallabag</title><link href="https://pcdomanual.com/wallabag-novo-servico/" rel="alternate" type="text/html" title="Novo serviço: Wallabag" /><published>2025-03-11T16:21:00-03:00</published><updated>2025-03-11T16:21:00-03:00</updated><id>https://pcdomanual.com/wallabag-novo-servico</id><content type="html" xml:base="https://pcdomanual.com/wallabag-novo-servico/"><![CDATA[<p>Quando soube da venda e <a href="https://manualdousuario.net/omnivore-venda-elevenlabs-ia/">encerramento do Omnivore</a>, conversei com o <a href="https://altendorfme.com/">Renan</a> para ofereceremos uma alternativa a ele no PC do Manual. Pesquisamos várias, testamos algumas, acabamos com o <a href="https://wallabag.pcdomanual.com/">Wallabag</a>, que passa a ser disponibilizado a <a href="https://manualdousuario.net/apoie/">assinantes do <strong>Manual</strong></a> nesta terça (11).</p>
+
+<p>O Wallabag é um serviço do tipo “ler depois”, ou seja, para salvar artigos da web e acessá-los a qualquer momento, com uma formatação limpa e, com a ajuda de apps, sem conexão à internet.</p>
+
+<p>Você talvez repare que o Wallabag não é dos sites mais… hm, bonitos. Ok, é feião mesmo. Apesar disso, é funcional, tem várias opções e é um projeto consolidado, com mais de dez anos de estrada. (A primeira versão pública foi disponibilizada <a href="https://github.com/wallabag/wallabag/releases/tag/1.3.0">em dezembro de 2013</a>.)</p>
+
+<p>Considerando o destino do Omnivore, longevidade é uma característica de especial importância.</p>
+
+<p>Se você apoia o <strong>Manual</strong>, <a href="mailto:ghedin@manualdousuario.net">envie um e-mail</a> informando o nome de usuário que deseja.</p>]]></content><author><name>Rodrigo Ghedin</name><email>rodrigo@ghed.in</email></author><category term="noticias" /><summary type="html"><![CDATA[Quando soube da venda e encerramento do Omnivore, conversei com o Renan para ofereceremos uma alternativa a ele no PC do Manual. Pesquisamos várias, testamos algumas, acabamos com o Wallabag, que passa a ser disponibilizado a assinantes do Manual nesta terça (11).]]></summary></entry><entry><title type="html">Novo serviço: Marreta</title><link href="https://pcdomanual.com/marreta/" rel="alternate" type="text/html" title="Novo serviço: Marreta" /><published>2024-11-26T11:01:00-03:00</published><updated>2024-11-26T11:01:00-03:00</updated><id>https://pcdomanual.com/marreta</id><content type="html" xml:base="https://pcdomanual.com/marreta/"><![CDATA[<p>O PC do Manual, nosso servidor de aplicações de código aberto, ganhou um novo serviço: o quebrador de paywalls <a href="https://marreta.pcdomanual.com">Marreta</a>.</p>
 
 <p>O Marreta substitui o antigo Parede, que era baseado em um projeto pronto, o Ladder. (O novo nome faz mais sentido, né?) Desenvolvido pelo <a href="https://altendorfme.com">Renan Altendorf</a>, traz mais recursos, é mais informativo e está em desenvolvimento ativo e acelerado.</p>
 
@@ -71,7 +79,39 @@
   <li>Trocamos a aplicação de compartilhamento seguro de senhas, do OTS para o <a href="https://segredo.pcdomanual.com/">Password Pusher</a>. Esse último compartilha tecnologias usadas nas outras aplicações, o que ajuda a otimizar e economizar os recursos do servidor.</li>
 </ul>
 
-<p>As coisas parecem estar todas no lugar. Se encontrar algo quebrado, <a href="mailto:suporte@manualdousuario.net">avise por e-mail</a>, por favor.</p>]]></content><author><name>Rodrigo Ghedin</name><email>rodrigo@ghed.in</email></author><category term="noticias" /><summary type="html"><![CDATA[O PC do Manual, servidor de aplicações de código aberto do Manual do Usuário, está em nova casa.]]></summary></entry><entry><title type="html">Linkding</title><link href="https://pcdomanual.com/linkding/" rel="alternate" type="text/html" title="Linkding" /><published>2024-03-14T13:00:00-03:00</published><updated>2024-03-14T13:00:00-03:00</updated><id>https://pcdomanual.com/linkding</id><content type="html" xml:base="https://pcdomanual.com/linkding/"><![CDATA[<p><img src="/assets/linkding.svg" alt="Logo do Linkding" width="96" height="96" style="float: right; box-shadow: none;" />O Linkding é um gerenciador de links favoritos (“bookmarks”) projetado para ser leve, rápido e fácil de configurar.</p>
+<p>As coisas parecem estar todas no lugar. Se encontrar algo quebrado, <a href="mailto:suporte@manualdousuario.net">avise por e-mail</a>, por favor.</p>]]></content><author><name>Rodrigo Ghedin</name><email>rodrigo@ghed.in</email></author><category term="noticias" /><summary type="html"><![CDATA[O PC do Manual, servidor de aplicações de código aberto do Manual do Usuário, está em nova casa.]]></summary></entry><entry><title type="html">Miniflux</title><link href="https://pcdomanual.com/miniflux/" rel="alternate" type="text/html" title="Miniflux" /><published>2024-03-14T13:00:00-03:00</published><updated>2024-03-14T13:00:00-03:00</updated><id>https://pcdomanual.com/miniflux</id><content type="html" xml:base="https://pcdomanual.com/miniflux/"><![CDATA[<p><img src="/assets/miniflux.svg" alt="Logo do Miniflux" width="96" height="96" style="float: right; box-shadow: none;" />Miniflux é um serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.</p>
+
+<p>RSS é uma tecnologia aberta que permite seguir sites e blogs em tempo real, sem intermediários e sem filtros. No <strong>Manual do Usuário</strong> tem um excelente artigo <a href="https://manualdousuario.net/como-usar-feeds-rss/">sobre como usar o RSS</a>.</p>
+
+<p>O Miniflux do PC do Manual está em fase de testes, restrito apenas para assinantes.</p>
+
+<h2 id="adicionando-um-novo-feed">Adicionando um novo feed</h2>
+
+<p>Na página inicial, clique no <code class="language-plaintext highlighter-rouge">+</code> ao lado de <code class="language-plaintext highlighter-rouge">Fontes</code> no menu superior.</p>
+
+<p>No campo de URL, coloque a URL do feed que deseja assinar. Para assinar o <strong>Manual do Usuário</strong>, por exemplo, use <code class="language-plaintext highlighter-rouge">https://manualdousuario.net/feed/</code>.</p>
+
+<p>Caso não saiba o endereço exato do feed, experimente colocar o do site. O Miniflux é bem esperto e consegue detectar feeds no código-fonte do site.</p>
+
+<p><img src="/assets/miniflux/miniflux-novo-feed.png" alt="Tela de cadastro de novo feed no Miniflux." width="688" height="294" /></p>
+
+<p>Você será redirecionado para a página com as últimas notícias do feed escolhido.</p>
+
+<p><img src="/assets/miniflux/miniflux-feed-lista.png" alt="Tela com itens do feed do Manual do Usuário no Miniflux." width="688" height="743" /></p>
+
+<p>Clicando em um item, você poderá ler a notícia diretamente no Miniflux.</p>
+
+<p><img src="/assets/miniflux/miniflux-feed-item.png" alt="Item/post do Manual do Usuário aberto no Miniflux." width="688" height="645" /></p>
+
+<h2 id="importando-feeds-de-outras-plataformas">Importando feeds de outras plataformas</h2>
+
+<p>Primeiro, exporte o seu feed da plataforma atual para um arquivo no formato <code class="language-plaintext highlighter-rouge">*.opml</code>. Veja como fazer <a href="https://feedly.helpscoutdocs.com/article/52-how-can-i-export-my-sources-and-feeds-through-opml">no Feedly</a> (em inglês). Você também pode importar usando um link direto para o arquivo de feed.</p>
+
+<p>Na página inicial, clique no <code class="language-plaintext highlighter-rouge">+</code> ao lado de <code class="language-plaintext highlighter-rouge">Fontes</code> no menu superior. Na página que se abrir, clique no menu <code class="language-plaintext highlighter-rouge">Importar</code>.</p>
+
+<p>Encontre o arquivo do seu dispositivo e clique em <code class="language-plaintext highlighter-rouge">Importar</code>.</p>
+
+<p><img src="/assets/miniflux/miniflux-importar.png" alt="Tela de importação de feeds via arquivo OPML no Miniflux." width="688" height="352" /></p>]]></content><author><name></name></author><category term="servicos" /><summary type="html"><![CDATA[Miniflux é um serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.]]></summary></entry><entry><title type="html">Linkding</title><link href="https://pcdomanual.com/linkding/" rel="alternate" type="text/html" title="Linkding" /><published>2024-03-14T13:00:00-03:00</published><updated>2024-03-14T13:00:00-03:00</updated><id>https://pcdomanual.com/linkding</id><content type="html" xml:base="https://pcdomanual.com/linkding/"><![CDATA[<p><img src="/assets/linkding.svg" alt="Logo do Linkding" width="96" height="96" style="float: right; box-shadow: none;" />O Linkding é um gerenciador de links favoritos (“bookmarks”) projetado para ser leve, rápido e fácil de configurar.</p>
 
 <p>No PC do Manual, ele está instalado em <a href="https://linkding.pcdomanual.com/">linkding.pcdomanual.com</a> e é fechado para assinantes/apoiadores do <strong>Manual do Usuário</strong> (<a href="https://manualdousuario.net/apoie/">saiba mais</a>).</p>
 
@@ -160,36 +200,4 @@
 
 <p>No repositório do Linkding <a href="https://github.com/sissbruecker/linkding#community">há uma lista</a> de aplicativos, bibliotecas e outros recursos de terceiros.</p>
 
-<p>Quem usa sistemas da Apple pode recorrer a <a href="https://www.icloud.com/shortcuts/9d0440165f9b4ab9ae22ebc8d0a690c7">este atalho</a> criado para <a href="https://apps.apple.com/br/app/atalhos/id915249334">o aplicativo homônimo</a>.</p>]]></content><author><name></name></author><category term="servicos" /><summary type="html"><![CDATA[O Linkding é um gerenciador de links favoritos (“bookmarks”) projetado para ser leve, rápido e fácil de configurar.]]></summary></entry><entry><title type="html">Miniflux</title><link href="https://pcdomanual.com/miniflux/" rel="alternate" type="text/html" title="Miniflux" /><published>2024-03-14T13:00:00-03:00</published><updated>2024-03-14T13:00:00-03:00</updated><id>https://pcdomanual.com/miniflux</id><content type="html" xml:base="https://pcdomanual.com/miniflux/"><![CDATA[<p><img src="/assets/miniflux.svg" alt="Logo do Miniflux" width="96" height="96" style="float: right; box-shadow: none;" />Miniflux é um serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.</p>
-
-<p>RSS é uma tecnologia aberta que permite seguir sites e blogs em tempo real, sem intermediários e sem filtros. No <strong>Manual do Usuário</strong> tem um excelente artigo <a href="https://manualdousuario.net/como-usar-feeds-rss/">sobre como usar o RSS</a>.</p>
-
-<p>O Miniflux do PC do Manual está em fase de testes, restrito apenas para assinantes.</p>
-
-<h2 id="adicionando-um-novo-feed">Adicionando um novo feed</h2>
-
-<p>Na página inicial, clique no <code class="language-plaintext highlighter-rouge">+</code> ao lado de <code class="language-plaintext highlighter-rouge">Fontes</code> no menu superior.</p>
-
-<p>No campo de URL, coloque a URL do feed que deseja assinar. Para assinar o <strong>Manual do Usuário</strong>, por exemplo, use <code class="language-plaintext highlighter-rouge">https://manualdousuario.net/feed/</code>.</p>
-
-<p>Caso não saiba o endereço exato do feed, experimente colocar o do site. O Miniflux é bem esperto e consegue detectar feeds no código-fonte do site.</p>
-
-<p><img src="/assets/miniflux/miniflux-novo-feed.png" alt="Tela de cadastro de novo feed no Miniflux." width="688" height="294" /></p>
-
-<p>Você será redirecionado para a página com as últimas notícias do feed escolhido.</p>
-
-<p><img src="/assets/miniflux/miniflux-feed-lista.png" alt="Tela com itens do feed do Manual do Usuário no Miniflux." width="688" height="743" /></p>
-
-<p>Clicando em um item, você poderá ler a notícia diretamente no Miniflux.</p>
-
-<p><img src="/assets/miniflux/miniflux-feed-item.png" alt="Item/post do Manual do Usuário aberto no Miniflux." width="688" height="645" /></p>
-
-<h2 id="importando-feeds-de-outras-plataformas">Importando feeds de outras plataformas</h2>
-
-<p>Primeiro, exporte o seu feed da plataforma atual para um arquivo no formato <code class="language-plaintext highlighter-rouge">*.opml</code>. Veja como fazer <a href="https://feedly.helpscoutdocs.com/article/52-how-can-i-export-my-sources-and-feeds-through-opml">no Feedly</a> (em inglês). Você também pode importar usando um link direto para o arquivo de feed.</p>
-
-<p>Na página inicial, clique no <code class="language-plaintext highlighter-rouge">+</code> ao lado de <code class="language-plaintext highlighter-rouge">Fontes</code> no menu superior. Na página que se abrir, clique no menu <code class="language-plaintext highlighter-rouge">Importar</code>.</p>
-
-<p>Encontre o arquivo do seu dispositivo e clique em <code class="language-plaintext highlighter-rouge">Importar</code>.</p>
-
-<p><img src="/assets/miniflux/miniflux-importar.png" alt="Tela de importação de feeds via arquivo OPML no Miniflux." width="688" height="352" /></p>]]></content><author><name></name></author><category term="servicos" /><summary type="html"><![CDATA[Miniflux é um serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.]]></summary></entry></feed>
+<p>Quem usa sistemas da Apple pode recorrer a <a href="https://www.icloud.com/shortcuts/9d0440165f9b4ab9ae22ebc8d0a690c7">este atalho</a> criado para <a href="https://apps.apple.com/br/app/atalhos/id915249334">o aplicativo homônimo</a>.</p>]]></content><author><name></name></author><category term="servicos" /><summary type="html"><![CDATA[O Linkding é um gerenciador de links favoritos (“bookmarks”) projetado para ser leve, rápido e fácil de configurar.]]></summary></entry></feed>
