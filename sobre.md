@@ -18,5 +18,3 @@ O nome “PC do Manual” é uma piada, sugerida pelo leitor [Matheus Fantinel](
 O PC do Manual está hospedado na nuvem da Oracle, no data center de São Paulo.
 
 Backups são feitos diariamente.
-
-A infraestrutura é transparente e pública. [Veja o código aberto no GitHub](https://github.com/manualdousuario/pcdomanual-infra).
