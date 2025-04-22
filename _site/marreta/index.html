@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Novo serviço: Marreta</title>
+  <meta name="description" content="O PC do Manual, nosso servidor de aplicações de código aberto, ganhou um novo serviço: o quebrador de paywalls Marreta.">
+
+  <link rel="canonical" href="https://pcdomanual.com/marreta/">
+  <link rel="alternate" type="application/rss+xml" title="PC do Manual" href="/feed.xml">
+
+  <link rel="stylesheet" href="/assets/style.css?v=202504221119" media="all">
+</head>
+
+<body class="single">
+
+  <header>
+    <div class="logo">
+      
+      <h2><a href="/"><img src="/assets/pc-do-manual.svg" alt="PC do Manual" width="79" height="52" /></a></h2>
+      
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="/sobre" aria-label="Detalhes sobre mim">Sobre</a></li>
+        <li><a href="/feed.xml" aria-label="Link para o feed Atom (RSS).">
+          <img src="/assets/rss.svg" alt="RSS" width="24" height="24" />
+        </a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+<article class="entry 
+">
+<h1>Novo serviço: Marreta</h1>
+
+<p class="data">26/11/2024 &middot; Rodrigo Ghedin</p>
+
+<p>O PC do Manual, nosso servidor de aplicações de código aberto, ganhou um novo serviço: o quebrador de paywalls <a href="https://marreta.pcdomanual.com">Marreta</a>.</p>
+
+<p>O Marreta substitui o antigo Parede, que era baseado em um projeto pronto, o Ladder. (O novo nome faz mais sentido, né?) Desenvolvido pelo <a href="https://altendorfme.com">Renan Altendorf</a>, traz mais recursos, é mais informativo e está em desenvolvimento ativo e acelerado.</p>
+
+<p>“Embora o Ladder seja uma alternativa open source interessante, senti a necessidade de explorar soluções em uma linguagem de programação que que tivesse mais confortável”, diz Renan. “Além disso, estava em uma fase de aprendizado com projetos como o Lerama e o Sintoniza, que me inspiraram a criar novas abordagens para resolver desafios similares.”</p>
+
+<p>O Marreta é uma aplicação em PHP. Segundo seu criador, ela “faz uma requisição nos sites simulando alguns bots, com headers específicos, DNS, user agents — o mais próximo de um usuário comum — e, em seguida, guarda todo o código HTML original dessa pagina de forma compactada”. Algumas dessas palavras não estão na Bíblia, mas funciona!</p>
+
+<p>Ele continua: “Ao acessar a página, existe um sistema de regras globais e específicas por domínios que remove elementos, scripts, classes, IDs e até mesmo escreve novos códigos personalizados.”</p>
+
+<p>O mais importante é que funciona lindamente.</p>
+
+<p>***</p>
+
+<p>Existem várias formas de se usar o novo serviço. A mais simples é copiar o link da notícia que você não está conseguindo ler e colá-la <a href="https://marreta.pcdomanual.com">no site do Marreta</a>.</p>
+
+<p>Também dá para agilizar esse processo editando o link da notícia. Digamos que você tenha batido no paywall de <code class="language-plaintext highlighter-rouge">https://sitedojornal.com/noticia-qualquer</code>. Para acessá-la via Marreta, edite o endereço, assim: <code class="language-plaintext highlighter-rouge">marreta.pcdomanual.com/p/https://sitedojornal.com/noticia-qualquer</code>.</p>
+
+<p>Quer algo mais fácil ainda? Copie o bookmarklet no site do Marreta para os seus favoritos e ative-o com apenas um clique.</p>
+
+<p>Para quem tem familiaridade com desenvolvimento, uma API REST é disponibilizada para integração a outros sistemas. Detalhes lá no site.</p>
+
+<p>Em breve, teremos <a href="https://bsky.app/profile/marreta.pcdomanual.com">um robô no Bluesky</a>. <a href="https://joselito.bio/pt/">Joselito</a> está desenvolvendo o código.</p>
+
+<p>***</p>
+
+<p>O Marreta derruba a maioria dos paywalls, mas não todos. Sites que sabemos não funcionar retornam uma mensagem de erro. Essa lista é atualizada de modo contínuo.</p>
+
+<p>Note, ainda, que o Marreta não remove anúncios dos sites. O sistema apenas derruba paywalls.</p>
+
+<p>O código está <a href="https://github.com/manualdousuario/marreta">aberto no nosso GitHub</a>. Contribuições de código, sugestões de melhorias e avisos de erros/problemas são bem-vindos.</p>
+
+</article>
+
+  <footer>
+    <p><strong>PC do Manual</strong> é uma plataforma de aplicações de código aberto (FOSS). Este projeto está vinculado ao <a href="https://manualdousuario.net">Manual do Usuário</a>.</p>
+    <p>Contato: <a href="mailto:suporte@manualdousuario.net">suporte@manualdousuario.net</a></p>
+    <p><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.pt_BR">CC BY-NC SA 4.0</a> &middot; 2023–2025</p>
+  </footer>
+
+</body>
+</html>
