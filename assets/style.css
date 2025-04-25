@@ -163,6 +163,7 @@ main {
 }
 
 .top-bar {
+	list-style: none;
 	background: hsl(0, 0%, 97%);
 	box-shadow: 0 4px 10px hsl(0, 0%, 92%);
 	font-size: 14px;
@@ -178,6 +179,9 @@ main {
 	padding-inline: 1rem;
 	height: 50px;
 	scrollbar-width: none; /* Firefox */
+}
+.top-bar li {
+	margin: 0;
 }
 
 .top-bar a {
