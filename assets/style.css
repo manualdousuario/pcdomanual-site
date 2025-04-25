@@ -5,7 +5,7 @@
 	--cor-background-alt: hsl(0, 0%, 95%);
 	--cor-link-externo: hsl(0, 0%, 97%);
 	--cor-link-ori: hsl(225, 72%, 41%);
- 	--cor-link-vis: hsl(276, 100%, 25%);
+	--cor-link-vis: hsl(276, 100%, 25%);
 	--cor-link-est: hsl(240, 63%, 27%);
 
 	--cor-link-meta: hsl(0, 0%, 30%);
@@ -160,6 +160,49 @@ footer,
 
 main {
 	margin: 0 auto var(--pos-grande-salto);
+}
+
+.top-bar {
+	background: hsl(0, 0%, 97%);
+	box-shadow: 0 4px 10px hsl(0, 0%, 92%);
+	font-size: 14px;
+	font-family: ui-monospace, monospace;
+	white-space: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 1.5rem;
+	margin-bottom: 2lh;
+	padding-inline: 1rem;
+	height: 50px;
+	scrollbar-width: none; /* Firefox */
+}
+
+.top-bar a {
+	flex-shrink: 0;
+}
+.top-bar a:active {
+	font-weight: bold;
+}
+.top-bar a:visited {
+	color: var(--cor-link-ori);
+}
+
+[data-theme="dark"] .top-bar {
+	background-color: hsl(0, 0%, 18%);
+	box-shadow: none;
+}
+
+.top-bar::-webkit-scrollbar {
+	display: none; /* Chrome/Safari */
+}
+
+@media (max-width: 728px) {
+	.top-bar {
+		justify-content: start;
+	}
 }
 
 header {
