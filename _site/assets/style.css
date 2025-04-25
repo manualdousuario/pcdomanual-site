@@ -163,6 +163,7 @@ main {
 }
 
 .top-bar {
+	list-style: none;
 	background: hsl(0, 0%, 97%);
 	box-shadow: 0 4px 10px hsl(0, 0%, 92%);
 	font-size: 14px;
@@ -179,6 +180,9 @@ main {
 	height: 50px;
 	scrollbar-width: none; /* Firefox */
 }
+.top-bar li {
+	margin: 0;
+}
 
 .top-bar a {
 	flex-shrink: 0;
@@ -190,9 +194,11 @@ main {
 	color: var(--cor-link-ori);
 }
 
-[data-theme="dark"] .top-bar {
-	background-color: hsl(0, 0%, 18%);
-	box-shadow: none;
+@media (prefers-color-scheme: dark) {
+	.top-bar {
+		background-color: hsl(0, 0%, 18%);
+		box-shadow: none;
+	}
 }
 
 .top-bar::-webkit-scrollbar {
@@ -216,6 +222,14 @@ header {
 header h1,
 .logo h2 {
 	font-size: var(--fs-3);
+}
+
+@media (prefers-color-scheme: dark) {
+	header h1 img,
+	.logo h2 img,
+	.logo-escuro {
+		filter: invert(1);
+	}
 }
 
 .logo h1,
