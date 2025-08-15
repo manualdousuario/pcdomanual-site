@@ -55,7 +55,7 @@ body {
 	font-family: var(--ff-accent);
 	color: var(--cor-text);
 	font-size: var(--fs-0);
-	line-height: 170%;
+	line-height: 1.5;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-rendering: optimizeLegibility;
@@ -339,9 +339,9 @@ article.entry h3 {
 .bloco-app,
 .exclusivos {
 	width: 100%;
-	padding: 1rem;
 	border-radius: var(--pos-curvada);
 	background-color: var(--cor-link-externo);
+	border: 1px solid hsl(0, 0%, 93%);
 }
 .exclusivos {
 	text-align: center;
@@ -355,14 +355,32 @@ article.entry h3 {
 	margin-right: 1rem;
 }
 .bloco-app h2 {
-	clear: initial;
+	display: flex;
+	padding: 1rem;
+	margin: 0;
+	column-gap: .5rem;
 }
 .bloco-app p {
 	font-size: var(--fs-0);
-	line-height: 1.5;
+	line-height: 1.4;
+	margin: 0;
+	margin-inline: 1rem;
 }
-.bloco-app p:last-child {
-	margin-bottom: 0;
+.bloco-app ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	border-top: 1px dashed hsl(0, 0%, 87%);
+	margin-top: 1rem;
+}
+.bloco-app ul li {
+	flex-basis: 50%;
+	text-align: center;
+	margin: 0;
+	padding: 1rem .5rem;
+	line-height: 1;
 }
 
 a.link-app {
@@ -374,12 +392,18 @@ ul.lista-noticias {
 	padding-left: 0;
 }
 
+ul.lista-noticias li {
+	display: flex;
+	flex-direction: column;
+	border-bottom: 1px dashed hsl(0, 0%, 87%);
+	margin-bottom: 1rem;
+	padding-bottom: 1rem;
+}
+
 ul.lista-noticias span {
 	font-family: var(--ff-mono);
 	color: var(--cor-link-meta);
 	font-size: var(--fs--1);
-	width: 6.25rem;
-	display: inline-block;
 }
 
 /* Telas muito grandes */
@@ -407,7 +431,17 @@ ul.lista-noticias span {
 	}
 
 	.bloco-app {
-		width: 49%;
+		flex-basis: calc(50% - .5rem);
+	}
+
+	ul.lista-noticias li {
+		flex-direction: row;
+		column-gap: 1rem;
+		align-items: baseline;
+	}
+	ul.lista-noticias span {
+		width: 100px;
+		text-align: right;
 	}
 
 	.single .pos-post {
@@ -466,5 +500,12 @@ ul.lista-noticias span {
 	}
 	.entry img {
 		box-shadow: none;
+	}
+
+	.bloco-app,
+	.exclusivos,
+	.bloco-app ul,
+	ul.lista-noticias li {
+		border-color: hsl(0, 0%, 30%);
 	}
 }
