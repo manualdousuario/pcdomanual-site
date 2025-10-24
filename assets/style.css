@@ -351,11 +351,11 @@ article.entry h3 {
 }
 
 .bloco-app img {
-	float: left;
 	margin-right: 1rem;
 }
 .bloco-app h2 {
 	display: flex;
+	align-items: center;
 	padding: 1rem;
 	margin: 0;
 	column-gap: .5rem;
