@@ -5,5 +5,18 @@
   </footer>
 
 <script defer src="https://umami.manualdousuario.net/script.js" data-website-id="4d0a402d-0e8e-4634-9e7d-5112ebc1bd33"></script>
+
+<script>// Embaralha os blocos de apps
+const container = document.querySelector('.blocos-de-apps');
+const blocos = Array.from(container.querySelectorAll('.bloco-app'));
+
+// Algoritmo Fisher-Yates
+for (let i = blocos.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [blocos[i], blocos[j]] = [blocos[j], blocos[i]];
+}
+
+// Reinsere os blocos embaralhados
+blocos.forEach(bloco => container.appendChild(bloco));</script>
 </body>
 </html>
