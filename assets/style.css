@@ -333,7 +333,6 @@ article.entry h3 {
 	justify-content: space-between;
 	row-gap: 1rem;
 	margin-bottom: var(--pos-grande-salto);
-	align-items: center;
 }
 
 .bloco-app,
