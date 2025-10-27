@@ -335,12 +335,14 @@ article.entry h3 {
 	margin-bottom: var(--pos-grande-salto);
 }
 
-.bloco-app,
-.exclusivos {
+.bloco-app {
 	width: 100%;
 	border-radius: var(--pos-curvada);
 	background-color: var(--cor-link-externo);
 	border: 1px solid hsl(0, 0%, 93%);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 .exclusivos {
 	text-align: center;
@@ -351,6 +353,8 @@ article.entry h3 {
 
 .bloco-app img {
 	margin-right: 1rem;
+	max-height: 32px;
+	max-width: 32px;
 }
 .bloco-app h2 {
 	display: flex;
@@ -358,6 +362,7 @@ article.entry h3 {
 	padding: 1rem;
 	margin: 0;
 	column-gap: .5rem;
+	line-height: 1.2;
 }
 .bloco-app p {
 	font-size: var(--fs-0);
