@@ -1,4 +1,4 @@
-source "https://rubygems.org"
+source "https://gem.coop"
 
 gem "jekyll", "~> 4.4.1"
 
