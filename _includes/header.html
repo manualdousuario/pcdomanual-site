@@ -11,26 +11,33 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' }}">
 
-  <link rel="stylesheet" href="/assets/style.css?v={{ "now" | date: "%Y%m%d%H%M" }}" media="all">
+  <link rel="stylesheet" href="/style.css?v={{ "now" | date: "%Y%m%d%H%M" }}" media="all">
+
+  <link rel="icon" type="image/png" href="/favicon-96x96.png?v=20260629" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260629" />
+  <link rel="shortcut icon" href="/favicon.ico?v=20260629" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=20260629" />
+  <meta name="apple-mobile-web-app-title" content="PC do Manual" />
+  <link rel="manifest" href="/site.webmanifest?v=20260629" />
+
+
 </head>
 
 <body{% if page.id %} class="single"{% endif %}>
-  <script type="text/javascript" src="/bar.js"></script>
+  <ul class="top-bar-jhahyge3678a"><li><a href="https://manualdousuario.net/">Blog</a></li><li><a href="https://manualdousuario.net/orbita/">Órbita</a></li><li><a href="https://manualdousuario.net/apoie/" style="font-weight: bold;">Assine</a></li><li><a href="https://pcdomanual.com/">PC do Manual</a></li><li><a href="https://manualdousuario.net/podcast/">Podcasts</a></li><li><a href="https://manualdousuario.net/loja/">Lojinha</a></li><li><a href="https://lerama.pcdomanual.com">Lerama</a></li></ul>
   <header>
     <div class="logo">
-      {% if page.id %}
-      <h2><a href="{{ '/' }}"><img src="/assets/pc-do-manual.svg" alt="PC do Manual" width="79" height="52" /></a></h2>
-      {% else %}
-      <h1><a href="{{ '/' }}"><img src="/assets/pc-do-manual.svg" alt="PC do Manual" width="79" height="52" /></a></h1>
-      {% endif %}
+      <h1><a href="{{ '/' }}"><img src="/assets/pc-do-manual.svg" alt="PC do Manual" width="54" height="36" /></a>&nbsp;<span>PC do Manual</span></h1>
     </div>
 
     <nav>
       <ul>
-        <li><a href="/sobre" aria-label="Detalhes sobre mim">Sobre</a></li>
-        <li><a href="/feed.xml" aria-label="Link para o feed Atom (RSS).">
-          <img src="/assets/rss.svg" alt="RSS" width="24" height="24" />
-        </a></li>
+        <li><a href="/blog">Blog</a></li>
+        <li><a href="https://status.manualdousuario.net/s/pcdomanual" target="_blank">Status</a></li>
+        <li><a href="/sobre">Sobre</a></li>
+        <li><a href="https://bsky.app/profile/pcdomanual.com"><img src="/assets/bluesky.svg" alt="Bluesky" width="20" height="20"></a></li>
+        <li><a rel="me" href="https://mastodon.social/@pcdomanual"><img src="/assets/mastodon.svg" alt="Mastodon" width="20" height="20"></a></li>
+        <li class="rss"><a href="/feed.xml"><img src="/assets/rss.svg" alt="RSS" width="20" height="20"></a></li>
       </ul>
     </nav>
   </header>
