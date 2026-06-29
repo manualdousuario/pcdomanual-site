@@ -3,13 +3,14 @@ layout: default
 ---
 <main>
 
+  <p class="exclusivos">⭐️&nbsp;Exclusivos para <a href="https://manualdousuario.net/apoie/">assinantes do <strong>Manual</strong></a></p>
+  
   <div class="blocos-de-apps">
-
     <div class="bloco-app">
       <h2><img src="/assets/readeck.svg" alt width="32" height="32"><span>Readeck</span></h2>
       <p>Salve o conteúdo legível de páginas da web para ler quando quiser.</p>
       <ul>
-        <li>⭐️ <a href="https://readeck.pcdomanual.com/" class="link-app">Acesse</a></li>
+        <li>⭐️&nbsp;<a href="https://readeck.pcdomanual.com/" class="link-app">Acesse</a></li>
         <li><a href="https://codeberg.org/readeck/readeck">código</a></li>
       </ul>
     </div>
@@ -47,7 +48,7 @@ layout: default
       <h2><img src="/assets/wallabag.svg" alt width="32" height="32" class="logo-escuro"><span>Wallabag</span></h2>
       <p>Salve, organize e leia páginas da web quando quiser.</p>
       <ul>
-        <li>⭐️ <a href="https://wallabag.pcdomanual.com/" class="link-app">Acesse</a></li>
+        <li>⭐️&nbsp;<a href="https://wallabag.pcdomanual.com/" class="link-app">Acesse</a></li>
         <li><a href="https://github.com/wallabag/wallabag">código</a></li>
       </ul>
     </div>
@@ -100,7 +101,7 @@ layout: default
       <h2><img src="/assets/miniflux.svg" alt width="32" height="32" class="logo-escuro"><span>Miniflux</span></h2>
       <p>Agregador de feeds RSS/Atom minimalista e fácil de usar.</p>
       <ul>
-        <li>⭐️ <a href="https://miniflux.pcdomanual.com/" class="link-app">Acesse</a></li>
+        <li>⭐️&nbsp;<a href="https://miniflux.pcdomanual.com/" class="link-app">Acesse</a></li>
         <li><a href="/miniflux/">docs</a></li>
         <li><a href="https://github.com/miniflux/v2">código</a></li>
       </ul>
@@ -110,20 +111,10 @@ layout: default
       <h2><img src="/assets/linkding.svg" alt width="32" height="32"><span>Linkding</span></h2>
       <p>Gerenciador de links/favoritos leve e poderoso.</p>
       <ul>
-        <li>⭐️ <a href="https://linkding.pcdomanual.com/" class="link-app">Acesse</a></li>
+        <li>⭐️&nbsp;<a href="https://linkding.pcdomanual.com/" class="link-app">Acesse</a></li>
         <li><a href="/linkding/">docs</a></li>
         <li><a href="https://github.com/sissbruecker/linkding">código</a></li>
       </ul>
     </div>
-
-    <p class="exclusivos">⭐️ Exclusivos para <a href="https://manualdousuario.net/apoie/">assinantes do <strong>Manual</strong></a></p>
   </div>
-  <h2>Novidades</h2>
-  <ul class="lista-noticias">
-    {% for post in site.categories.noticias limit: 5 %}
-    <li>
-      <span>{{ post.date | date: "%-d/%-m/%Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    {% endfor %}
-  </ul>
 </main>
