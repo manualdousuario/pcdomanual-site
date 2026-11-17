@@ -4,6 +4,7 @@ title:  "Novo serviço: Stirling PDF"
 date:   2025-08-15 09:53 -0300
 author: rghedin
 categories: noticias
+aviso: "O Stirling PDF foi substituído pelo [BentoPDF](https://pdf.pcdomanual.com/) em outubro de 2025 ([saiba mais](/bentopdf-netorking-tools/))."
 ---
 Quem nunca precisou fazer uma edição rápida em um arquivo `*.pdf`? O novo serviço do PC do Manual, [Stirling PDF](https://pdf.pcdomanual.com/?lang=pt_BR), é um canivete-suíço para esse tipo de arquivo.
 

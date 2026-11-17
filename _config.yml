@@ -1,12 +1,39 @@
 title: PC do Manual
 description: PC do Manual é uma plataforma de aplicações de código aberto derivada do site Manual do Usuário.
+tagline: Aplicações de código aberto do Manual do Usuário
 email: ghedin@manualdousuario.net
 url: https://pcdomanual.com
+lang: pt_BR
+locale: pt_BR
+
+logo: /assets/pc-do-manual-social.png
+image: /assets/pc-do-manual-social.png
+twitter:
+  card: summary_large_image
+social:
+  name: PC do Manual
+  links:
+    - https://bsky.app/profile/pcdomanual.com
+    - https://mastodon.social/@pcdomanual
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 permalink: /:title/
 markdown: kramdown
 
-timezone: UTC−03:00
+timezone: America/Sao_Paulo
+
+exclude:
+  - LICENSE.txt
+  - README.md
+  - vendor/
+  - __MACOSX/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/pc-do-manual-social.png

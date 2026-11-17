@@ -4,6 +4,7 @@ title:  "Novos serviços: OpenOrb e SearXNG"
 date:   2024-05-29 14:23:00 -0300
 author: rghedin
 categories: noticias
+aviso: "O OpenOrb foi substituído pelo [Lerama](https://lerama.pcdomanual.com/) em setembro de 2024."
 ---
 O PC do Manual, servidor de aplicações de código aberto do [**Manual do Usuário**](https://manualdousuario.net/), tem duas novidades.
 

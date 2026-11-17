@@ -5,7 +5,7 @@ date:   2025-10-27 10:24 -0300
 author: rghedin
 categories: noticias
 ---
-O PC do Manual ganhou duas novas aplicações: [BentoPDF](https://pdf.pcdomanual.com/) e [Networking Tools](https://redes.pcdomanual.com/).
+O PC do Manual ganhou duas novas aplicações: [BentoPDF](https://pdf.pcdomanual.com/) e [Networking Toolbox](https://redes.pcdomanual.com/).
 
 O BentoPDF substituiu o Stirling PDF. Ambos têm a mesma proposta: oferecer um canivete-suíço de ferramentas para manipular arquivos `*.pdf`: juntar/remover páginas, comprimir, recortar, assinar, converter de/para imagens e outras várias.
 

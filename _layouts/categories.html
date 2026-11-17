@@ -1,12 +1,13 @@
 ---
 layout: default
 ---
-<main>
+<main id="conteudo">
   <h1>Arquivos do assunto “{{ page.title }}”</h1>
   <ul class="categorias_lista">
   {% for post in page.posts %}
     <li>
-      {{ post.date | date: "%-d/%-m/%Y" }} <a href="{{ post.url }}">{{ post.title }}</a>
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d/%-m/%Y" }}</time> <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
+  </ul>
 </main>

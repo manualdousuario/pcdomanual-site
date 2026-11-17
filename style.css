@@ -94,8 +94,36 @@ a:hover,
 a:focus {
 	color: var(--cor-link-est);
 }
-a:focus { 
-	outline: thin dotted; 
+a:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 2px;
+	border-radius: 2px;
+}
+
+.visualmente-oculto {
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border: 0;
+}
+
+.pular-conteudo {
+	position: absolute;
+	left: 1rem;
+	top: -10rem;
+	z-index: 100000;
+	padding: .5rem 1rem;
+	background-color: var(--cor-background);
+	border: 2px solid currentColor;
+	border-radius: var(--pos-curvada);
+}
+.pular-conteudo:focus {
+	top: 1rem;
 }
 
 hr {
@@ -185,8 +213,10 @@ header {
 	justify-content: space-between;
 }
 
-header h1 {
+header h1,
+.logo-site {
 	font-size: var(--fs-3);
+	font-family: var(--ff-base);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -196,20 +226,25 @@ header h1 {
 	}
 }
 
-.logo h1 {
+.logo h1,
+.logo-site {
 	margin: 0;
-	display: flex;
-	align-items: center;
 	line-height: 1;
 }
-.logo h1 a,
-.logo h1 a img,
+.logo a {
+	display: flex;
+	align-items: center;
+	column-gap: .5rem;
+	color: inherit;
+	text-decoration: none;
+}
+.logo a img,
 .rss a,
 .rss a svg {
 	display: block;
 }
 
-nav ul {
+header nav ul {
 	display: flex;
 	align-items: center;
 	list-style: none;
@@ -220,16 +255,20 @@ nav ul {
 	font-family: var(--ff-mono);
 	font-size: var(--fs--1);
 }
-nav li {
+header nav li {
 	margin-bottom: 0;
 }
-nav a,
-nav a:visited {
+header nav li a {
+	display: inline-block;
+	padding-block: .5rem;
+}
+header nav a,
+header nav a:visited {
 	color: var(--cor-link-ori);
 }
 
 
-nav img {
+header nav img {
 	vertical-align: middle;
 	width: 24px;
 	height: auto;
@@ -316,9 +355,20 @@ footer p:last-child {
 	font-size: var(--fs-2);
 	line-height: 1.25;
 }
+article.entry > h1 {
+	font-size: var(--fs-2);
+	line-height: 1.25;
+}
 article.entry h2 {
 	font-size: var(--fs-2);
 	margin-top: 2.5rem;
+}
+.aviso {
+	background-color: var(--cor-background-alt);
+	border-left: 4px solid var(--cor-link-ori);
+	padding: .75rem 1rem;
+	border-radius: var(--pos-curvada);
+	font-size: var(--fs--1);
 }
 article.entry h3 {
 	margin-top: 2rem;
@@ -370,7 +420,7 @@ article.entry h3 {
 	max-height: 32px;
 	max-width: 32px;
 }
-.bloco-app h2 {
+.bloco-app h3 {
 	display: flex;
 	align-items: center;
 	padding: 1rem;
@@ -414,7 +464,24 @@ ul.lista-noticias li {
 	margin-bottom: 2rem;
 }
 
-ul.lista-noticias span {
+main > h1 {
+	font-size: var(--fs-2);
+}
+h2.ano-blog {
+	font-size: var(--fs-1);
+	margin-top: 2.5rem;
+}
+.ultimo-aviso {
+	text-align: center;
+	font-size: var(--fs--1);
+	max-width: 100%;
+}
+.ultimo-aviso span {
+	font-family: var(--ff-mono);
+	color: var(--cor-link-meta);
+}
+
+ul.lista-noticias time {
 	font-family: var(--ff-mono);
 	color: var(--cor-link-meta);
 	font-size: var(--fs--1);
@@ -425,7 +492,7 @@ ul.lista-noticias span {
 .top-bar-jhahyge3678a::-webkit-scrollbar{display:none}
 .top-bar-jhahyge3678a *{margin:0;padding:0}
 .top-bar-jhahyge3678a li{margin:0}
-.top-bar-jhahyge3678a ul li a{padding:10px 6px}
+.top-bar-jhahyge3678a a{display:inline-block;padding:8px 4px}
 .top-bar-jhahyge3678a a{flex-shrink:0;font-weight:400}
 .top-bar-jhahyge3678a a,.top-bar-jhahyge3678a a:visited{color:hsl(229, 100%, 39%);text-decoration:underline}
 .top-bar-jhahyge3678a a:hover{color:hsl(240, 63%, 27%)}
@@ -435,8 +502,6 @@ ul.lista-noticias span {
 	.top-bar-jhahyge3678a a,.top-bar-jhahyge3678a a:visited{color:hsl(224, 100%, 83%)}
 	.top-bar-jhahyge3678a a:hover{color:hsl(224, 100%, 71%)}
 }
-header.container{margin-top:1rem}
-.side-nav.fixed{padding-top:var(--altura)}
 
 /* Telas muito grandes */
 @media only screen and (min-width: 1024px) {
@@ -454,7 +519,7 @@ header.container{margin-top:1rem}
 		--pos-grande-salto: 8rem;
 	}
 
-	nav ul {
+	header nav ul {
 		column-gap: 1.5rem;
 	}
 
@@ -502,10 +567,10 @@ header.container{margin-top:1rem}
 		row-gap: var(--pos-margem-baixo);
 	}
 
-	nav {
+	header nav {
 		width: 100%;
 	}
-	nav ul {
+	header nav ul {
 		justify-content: space-around;
 	}
 

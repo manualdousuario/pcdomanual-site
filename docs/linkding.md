@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Linkding"
-date:   2024-03-14 13:00:00 -0300
-categories: servicos
+type: page
+permalink: /linkding/
+description: "Como usar o Linkding do PC do Manual: criação de conta, recursos e dicas."
 ---
 <img src="/assets/linkding.svg" alt="Logo do Linkding" width="96" height="96" style="float: right; box-shadow: none;" />O Linkding é um gerenciador de links favoritos (“bookmarks”) projetado para ser leve, rápido e fácil de configurar.
 
@@ -26,7 +27,7 @@ Nesta parte, demonstro os principais usos.
 
 Após autenticar-se, você verá um menu principal com um grande botão roxo, Add bookmark. Clique ou toque nele para acrescentar um link/favorito.
 
-<img src="/assets/linkding/linkding-novo-favorito.png" alt="Print da tela de criação de novo link/favorito no Linkding, no Safari do macOS." width="688" height="459" />
+<img src="/assets/linkding/linkding-novo-favorito.webp" alt="Print da tela de criação de novo link/favorito no Linkding, no Safari do macOS." width="688" height="459" loading="lazy" decoding="async" />
 
 Apenas um campo é obrigatório, o URL. Os demais ajudam a organizar seus favoritos:
 
@@ -41,7 +42,7 @@ Apenas um campo é obrigatório, o URL. Os demais ajudam a organizar seus favori
 
 Após salvar alguns links/favoritos, a tela inicial será povoada por eles. Cada link exibe algumas opções, a saber:
 
-<img src="/assets/linkding/linkding-favorito.png" alt="Detalhe de um favorito salvo no Linkding." width="688" height="121" />
+<img src="/assets/linkding/linkding-favorito.png" alt="Detalhe de um favorito salvo no Linkding." width="688" height="121" loading="lazy" decoding="async" />
 
 * O link da data relativa (`Today ∞`, `1 week ago` etc.) leva a uma cópia da página que é feita automaticamente na Wayback Machine toda vez que um link é salvo.
 * `Edit` abre a tela de edição, similar à de criação do link, para alterações.

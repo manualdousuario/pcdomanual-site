@@ -1,111 +1,31 @@
 ---
 layout: default
 ---
-<main>
+<main id="conteudo">
+  {%- assign ultimo = site.categories.noticias | first %}
+  {%- if ultimo %}
+  <p class="ultimo-aviso"><span>Última atualização, <time datetime="{{ ultimo.date | date_to_xmlschema }}">{{ ultimo.date | date: "%-d/%-m" }}</time>:</span> <a href="{{ ultimo.url }}">{{ ultimo.title }}</a></p>
+  {%- endif %}
 
-  <p class="exclusivos">⭐️&nbsp;Exclusivos para <a href="https://manualdousuario.net/apoie/">assinantes do <strong>Manual</strong></a></p>
-  
+  <p class="exclusivos"><span aria-hidden="true">⭐️</span>&nbsp;Exclusivos para <a href="https://manualdousuario.net/apoie/">assinantes do <strong>Manual</strong></a></p>
+
+  <h2 class="visualmente-oculto">Serviços</h2>
   <div class="blocos-de-apps">
-    <div class="bloco-app">
-      <h2><img src="/assets/readeck.svg" alt width="32" height="32"><span>Readeck</span></h2>
-      <p>Salve o conteúdo legível de páginas da web para ler quando quiser.</p>
+    {%- assign apps = site.data.apps | sort_natural: "nome" %}
+    {%- for app in apps %}
+    <section class="bloco-app" aria-labelledby="app-{{ app.nome | slugify }}">
+      <h3 id="app-{{ app.nome | slugify }}"><img src="/assets/{{ app.logo }}" alt="" width="32" height="32"{% if app.logo_escuro %} class="logo-escuro"{% endif %}><span>{{ app.nome }}</span></h3>
+      <p>{{ app.descricao }}</p>
       <ul>
-        <li>⭐️&nbsp;<a href="https://readeck.pcdomanual.com/" class="link-app">Acesse</a></li>
-        <li><a href="https://codeberg.org/readeck/readeck">código</a></li>
+        {%- if app.url %}
+        <li>{% if app.exclusivo %}<span role="img" aria-label="Exclusivo para assinantes">⭐️</span>&nbsp;{% endif %}<a href="{{ app.url }}" class="link-app">Acesse<span class="visualmente-oculto"> o {{ app.nome }}</span></a></li>
+        {%- endif %}
+        {%- if app.docs %}
+        <li><a href="{{ app.docs }}">docs<span class="visualmente-oculto"> do {{ app.nome }}</span></a></li>
+        {%- endif %}
+        <li><a href="{{ app.codigo }}">código<span class="visualmente-oculto"> do {{ app.nome }}</span></a></li>
       </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/networking-toolbox.svg" alt width="32" height="32"><span>Networking Toolbox</span></h2>
-      <p>+100 ferramentas e utilitários de rede.</p>
-      <ul>
-        <li><a href="https://redes.pcdomanual.com/" class="link-app">Acesse</a>
-        </li>
-        <li><a href="https://github.com/Lissy93/networking-toolbox/tree/main">código</a></li>
-      </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/bento.svg" alt width="32" height="32"><span>BentoPDF</span></h2>
-      <p>Canivete-suíço para arquivos PDF, com processamento local.</p>
-      <ul>
-        <li><a href="https://pdf.pcdomanual.com/" class="link-app">Acesse</a>
-        </li>
-        <li><a href="https://github.com/alam00000/bentopdf">código</a></li>
-      </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/vert.svg" alt width="32" height="32"><span>Vert</span></h2>
-      <p>Conversor de arquivos de imagem e áudio com processamento local.</p>
-      <ul>
-        <li><a href="https://converta.pcdomanual.com/" class="link-app">Acesse</a></li>
-        <li><a href="https://github.com/VERT-sh/VERT">código</a></li>
-      </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/marreta.svg" alt width="32" height="32"><span>Marreta</span></h2>
-      <p>Chapéu de paywall é marreta! (Quebrador de paywalls.)</p>
-      <ul>
-        <li><a href="https://github.com/manualdousuario/marreta">código</a></li>
-      </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/sintoniza.svg" alt width="32" height="32" class="logo-escuro"><span>Sintoniza</span></h2>
-      <p>Sincronização de podcasts para apps como AntennaPod.</p>
-      <ul>
-        <li><a href="https://sintoniza.pcdomanual.com/" class="link-app">Acesse</a></li>
-        <li><a href="https://github.com/manualdousuario/sintoniza">código</a></li>
-      </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/it-tools.svg" alt width="32" height="32"><span>IT-Tools</span></h2>
-      <p>Pequenas ferramentas úteis para desenvolvedores.</p>
-      <ul>
-        <li><a href="https://ti.pcdomanual.com/" class="link-app">Acesse</a></li>
-        <li><a href="https://github.com/CorentinTh/it-tools">código</a></li>
-      </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/lerama.svg" alt width="32" height="32" class="logo-escuro"><span>Lerama</span></h2>
-      <p>Diretório de blogs pessoais baseados em feeds RSS e Atom.</p>
-      <ul>
-        <li><a href="https://lerama.pcdomanual.com/" class="link-app">Acesse</a></li>
-        <li><a href="https://github.com/manualdousuario/lerama">código</a></li>
-      </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/searxng.svg" alt width="32" height="32"><span>SearXNG</span></h2>
-      <p>Meta-buscador web hackeável e que respeita a sua privacidade.</p>
-      <ul>
-        <li><a href="https://busca.pcdomanual.com/" class="link-app">Acesse</a></li>
-        <li><a href="https://github.com/searxng/searxng">código</a></li>
-      </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/miniflux.svg" alt width="32" height="32" class="logo-escuro"><span>Miniflux</span></h2>
-      <p>Agregador de feeds RSS/Atom minimalista e fácil de usar.</p>
-      <ul>
-        <li>⭐️&nbsp;<a href="https://miniflux.pcdomanual.com/" class="link-app">Acesse</a></li>
-        <li><a href="/miniflux/">docs</a></li>
-        <li><a href="https://github.com/miniflux/v2">código</a></li>
-      </ul>
-    </div>
-
-    <div class="bloco-app">
-      <h2><img src="/assets/linkding.svg" alt width="32" height="32"><span>Linkding</span></h2>
-      <p>Gerenciador de links/favoritos leve e poderoso.</p>
-      <ul>
-        <li>⭐️&nbsp;<a href="https://linkding.pcdomanual.com/" class="link-app">Acesse</a></li>
-        <li><a href="/linkding/">docs</a></li>
-        <li><a href="https://github.com/sissbruecker/linkding">código</a></li>
-      </ul>
-    </div>
+    </section>
+    {%- endfor %}
   </div>
 </main>
