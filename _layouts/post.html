@@ -2,13 +2,19 @@
 layout: default
 ---
 {% assign author = site.data.authors[page.author] %}
+{%- assign noticia = false %}{% if page.categories contains "noticias" %}{% assign noticia = true %}{% endif %}
+<main id="conteudo">
 <article class="entry 
 {% if page.type == 'image' %}entry_image{% elsif page.type == 'quote' %}entry_quote{% elsif page.type == 'aside' %}entry_aside{% elsif page.type == 'link' %}entry_link{% elsif page.type == 'page' %}entry_page{% endif %}">
-<h2>{{ page.title | escape }}</h2>
-{% if page.categories contains "noticias" %}
-<p class="data">{{ page.date | date: "%-d/%-m/%Y" }}{% if author %} &middot; {{ author.name }}{% endif %}</p>{% endif %}
+<h1>{{ page.title | escape }}</h1>
+{% if noticia %}
+<p class="data"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d/%-m/%Y" }}</time>{% if author %} &middot; {{ author.name }}{% endif %}</p>{% endif %}
+{% if page.aviso %}
+<p class="aviso"><strong>Aviso:</strong> {{ page.aviso | markdownify | remove: "<p>" | remove: "</p>" | strip }}</p>
+{% endif %}
 
 {{ content }}
 
-<p class="voltar-indice-blog"><a href="/blog">Voltar ao blog</a></p>
+{% if noticia %}<p class="voltar-indice-blog"><a href="/blog/">Voltar ao blog</a></p>{% endif %}
 </article>
+</main>

@@ -4,6 +4,7 @@ title: "[Linkding] Indisponibilidade do Linkding"
 date:   2026-09-19 11:40 -0300
 author: rghedin
 categories: noticias
+aviso: "O Linkding voltou ao ar."
 ---
 Por algum motivo, na madrugada de quinta para sexta (17–18), nosso Linkding começou a derreter o banco de dados compartilhado com outras aplicações.
 

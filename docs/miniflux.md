@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Miniflux"
-date:   2024-03-14 13:00:00 -0300
-categories: servicos
+type: page
+permalink: /miniflux/
+description: "Como usar o Miniflux do PC do Manual: criação de conta, recursos e dicas."
 ---
 <img src="/assets/miniflux.svg" alt="Logo do Miniflux" width="96" height="96" style="float: right; box-shadow: none;" />Miniflux é um serviço agregador de RSS leve, minimalista, fácil de usar e fornece API para aplicativos diversos.
 
@@ -18,15 +19,15 @@ No campo de URL, coloque a URL do feed que deseja assinar. Para assinar o **Manu
 
 Caso não saiba o endereço exato do feed, experimente colocar o do site. O Miniflux é bem esperto e consegue detectar feeds no código-fonte do site.
 
-<img src="/assets/miniflux/miniflux-novo-feed.png" alt="Tela de cadastro de novo feed no Miniflux." width="688" height="294" />
+<img src="/assets/miniflux/miniflux-novo-feed.webp" alt="Tela de cadastro de novo feed no Miniflux." width="688" height="294" loading="lazy" decoding="async" />
 
 Você será redirecionado para a página com as últimas notícias do feed escolhido.
 
-<img src="/assets/miniflux/miniflux-feed-lista.png" alt="Tela com itens do feed do Manual do Usuário no Miniflux." width="688" height="743" />
+<img src="/assets/miniflux/miniflux-feed-lista.webp" alt="Tela com itens do feed do Manual do Usuário no Miniflux." width="688" height="743" loading="lazy" decoding="async" />
 
 Clicando em um item, você poderá ler a notícia diretamente no Miniflux.
 
-<img src="/assets/miniflux/miniflux-feed-item.png" alt="Item/post do Manual do Usuário aberto no Miniflux." width="688" height="645" />
+<img src="/assets/miniflux/miniflux-feed-item.webp" alt="Item/post do Manual do Usuário aberto no Miniflux." width="688" height="645" loading="lazy" decoding="async" />
 
 ## Importando feeds de outras plataformas
 
@@ -36,4 +37,4 @@ Na página inicial, clique no `+` ao lado de `Fontes` no menu superior. Na pági
 
 Encontre o arquivo do seu dispositivo e clique em `Importar`.
 
-<img src="/assets/miniflux/miniflux-importar.png" alt="Tela de importação de feeds via arquivo OPML no Miniflux." width="688" height="352" />
+<img src="/assets/miniflux/miniflux-importar.webp" alt="Tela de importação de feeds via arquivo OPML no Miniflux." width="688" height="352" loading="lazy" decoding="async" />

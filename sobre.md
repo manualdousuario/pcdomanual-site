@@ -2,6 +2,7 @@
 type: page
 layout: post
 title: "Sobre o PC do Manual"
+description: "O que é o PC do Manual, quem mantém e como ter acesso aos serviços exclusivos para assinantes do Manual do Usuário."
 ---
 PC do Manual é uma plataforma de softwares livres de código aberto vinculada ao blog [Manual do Usuário](https://manualdousuario.net/).
 

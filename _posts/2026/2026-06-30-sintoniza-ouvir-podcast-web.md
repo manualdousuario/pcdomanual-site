@@ -11,7 +11,7 @@ Na última grande atualização do projeto — criado e mantido pelo [Renan Alte
 
 Isso significa que agora, além de sincronizar suas inscrições, episódios ouvidos e até posição de reprodução, dá para gerenciar seus podcasts e ouvi-los no próprio Sintoniza na web, em qualquer dispositivo.
 
-![Print do player do Sintoniza em episódio do podcast “Ficções”, no Safari 26.](/assets/img/sintoniza-player-web.png)
+<img src="/assets/img/sintoniza-player-web.webp" alt="Print do player do Sintoniza em episódio do podcast “Ficções”, no Safari 26." width="688" height="541" loading="lazy" decoding="async" />
 
 O Sintoniza é baseado no protocolo [gPodder](https://gpodder.github.io). Estávamos meio frustrados com as opções disponíveis e, disso, veio a ideia de desenvolver um serviço melhor em cima do protocolo. Funciona super bem.
 

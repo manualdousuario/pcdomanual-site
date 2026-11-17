@@ -1,0 +1,76 @@
+# Lista de serviços da capa. A capa ordena por nome.
+# exclusivo: true marca com ⭐️ (só para assinantes).
+# logo_escuro: true inverte o logo no modo escuro.
+- nome: Readeck
+  logo: readeck.svg
+  descricao: Salve o conteúdo legível de páginas da web para ler quando quiser.
+  url: https://readeck.pcdomanual.com/
+  exclusivo: true
+  codigo: https://codeberg.org/readeck/readeck
+
+- nome: Networking Toolbox
+  logo: networking-toolbox.svg
+  descricao: +100 ferramentas e utilitários de rede.
+  url: https://redes.pcdomanual.com/
+  codigo: https://github.com/Lissy93/networking-toolbox
+
+- nome: BentoPDF
+  logo: bento.svg
+  descricao: Canivete-suíço para arquivos PDF, com processamento local.
+  url: https://pdf.pcdomanual.com/
+  codigo: https://github.com/alam00000/bentopdf
+
+- nome: Vert
+  logo: vert.svg
+  descricao: Conversor de arquivos de imagem e áudio com processamento local.
+  url: https://converta.pcdomanual.com/
+  codigo: https://github.com/VERT-sh/VERT
+
+- nome: Marreta
+  logo: marreta.svg
+  descricao: Chapéu de paywall é marreta! (Quebrador de paywalls.)
+  url: https://marreta.link/
+  codigo: https://github.com/manualdousuario/marreta
+
+- nome: Sintoniza
+  logo: sintoniza.svg
+  logo_escuro: true
+  descricao: Sincronização de podcasts para apps como AntennaPod.
+  url: https://sintoniza.pcdomanual.com/
+  codigo: https://github.com/manualdousuario/sintoniza
+
+- nome: IT-Tools
+  logo: it-tools.svg
+  descricao: Pequenas ferramentas úteis para desenvolvedores.
+  url: https://ti.pcdomanual.com/
+  codigo: https://github.com/CorentinTh/it-tools
+
+- nome: Lerama
+  logo: lerama.svg
+  logo_escuro: true
+  descricao: Diretório de blogs pessoais baseados em feeds RSS e Atom.
+  url: https://lerama.pcdomanual.com/
+  codigo: https://github.com/manualdousuario/lerama
+
+- nome: SearXNG
+  logo: searxng.svg
+  descricao: Meta-buscador web hackeável e que respeita a sua privacidade.
+  url: https://busca.pcdomanual.com/
+  codigo: https://github.com/searxng/searxng
+
+- nome: Miniflux
+  logo: miniflux.svg
+  logo_escuro: true
+  descricao: Agregador de feeds RSS/Atom minimalista e fácil de usar.
+  url: https://miniflux.pcdomanual.com/
+  exclusivo: true
+  docs: /miniflux/
+  codigo: https://github.com/miniflux/v2
+
+- nome: Linkding
+  logo: linkding.svg
+  descricao: Gerenciador de links/favoritos leve e poderoso.
+  url: https://linkding.pcdomanual.com/
+  exclusivo: true
+  docs: /linkding/
+  codigo: https://github.com/sissbruecker/linkding

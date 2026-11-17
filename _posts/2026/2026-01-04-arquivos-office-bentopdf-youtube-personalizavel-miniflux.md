@@ -28,6 +28,6 @@ A outra boa novidade é do [Miniflux](https://miniflux.pcdomanual.com/), agregad
 * Short videos: Apenas vídeos curtos/Shorts.
 * Live streams: Apenas vídeos ao vivo.
 
-![Print da lista de opções de feeds na inscrição em um canal do YouTube.](/assets/img/feeds-youtube-miniflux.png)
+<img src="/assets/img/feeds-youtube-miniflux.png" alt="Print da lista de opções de feeds na inscrição em um canal do YouTube." width="688" height="247" loading="lazy" decoding="async" />
 
 É possível fazer isso de outras formas, editando diretamente a URL do feed. [O Thiago mostrou como no Órbita](https://manualdousuario.net/orbita-post/substack-via-rss-e-filtros-para-feeds-no-miniflux/#comment-276322), ano passado. A opção com um clique do Miniflux, porém, é bem mais intuitiva e expande a oferta de se livrar dos Shorts a um público maior/menos técnico.

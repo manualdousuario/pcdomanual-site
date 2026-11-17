@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
-<main>
-<h2>Atualizações e incidentes</h2>
+<main id="conteudo">
+<h1>Atualizações e incidentes</h1>
+{%- assign por_ano = site.categories.noticias | group_by_exp: "post", "post.date | date: '%Y'" %}
+{%- for ano in por_ano %}
+<h2 class="ano-blog">{{ ano.name }}</h2>
 <ul class="lista-noticias">
-  {% for post in site.categories.noticias limit: 5 %}
+  {%- for post in ano.items %}
   <li>
-    <span>{{ post.date | date: "%-d/%-m/%Y" }}</span><br><a href="{{ post.url }}">{{ post.title }}</a>
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d/%-m/%Y" }}</time><br><a href="{{ post.url }}">{{ post.title }}</a>
   </li>
-  {% endfor %}
+  {%- endfor %}
 </ul>
+{%- endfor %}
 </main>
